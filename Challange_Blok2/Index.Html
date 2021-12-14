@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="images/slapen.svg">
+        <a href="#home" id="navbar__logo">Stéphano</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="Index.Html" class="navbar__links" id="about-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="Modules.html" class="navbar__links"  id="about-page">Modules</a>
+          </li>
+          <li class="navbar__item">
+            <a href="Overmij.html" class="navbar__links" id="about-page">Over mij</a>
+          </li>
+          <li class="navbar__item">
+            <a href="Projecten.html" class="navbar__links" id="about-page">Projecten</a>
+          </li>
+          <li class="navbar__item">
+            <a href="Ruweschets.html" class="navbar__links" id="about-page">Ruwe schets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading"> Kom en zie wat <span>Stéphano</span> heeft gedaan in dit schooljaar</h1>
+        <button onclick="location.href='https://github.com/Stephano-van-Beek'" class="main__btn" >Explore</button>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About me</h2>
+            <a href="Modules.html">Modules</a> <a href="Overmij.html">Over mij</a>
+            <a href="Projecten.html">Projecten</a> <a href="Ruweschets.html">Ruwe schets van web</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Don't contact Us</h2>
+            <a href="/">Don't contact</a> <a href="/">there is no Support</a>
+          </div>
+        </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">STÉPHANO</a>
+          </div>
+          <p class="website__rights">© Stéphano. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
