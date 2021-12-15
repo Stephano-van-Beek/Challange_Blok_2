@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHTML van Stéphano</title>
+    <script src="Js/functions.js" defer></script>
+</head>
+
+<body>
+    <h1>ID and Classes</h1>
+    <p id="p1">Dit is een id paragraaf</p>
+    <button onclick="document.getElementById('p1').innerHTML = 'id p1 paragraaf';">Klik hier voor meer</button>
+    <p class="p1">Dit is een class paragraaf</p>
+    <button onclick="document.querySelector('.p1').innerHTML = 'class p1 paragraaf';">Klik hier voor meer</button>
+    <h1 id="h1">Dit is een id header</h1>
+    <button onclick="document.getElementById('h1').innerHTML = 'id h1 paragraaf';">Klik hier</button>    
+    <h1 class="h1">Dit is een class header</h1>
+    <button onclick="document.querySelector('.h1').innerHTML = 'class h1 paragraaf';">Klik hier meer</button>
+    <p>Klik op de button hieronder om de body te veranderen.</p>
+    <button onclick="document.querySelector('body').innerHTML = 'nu is de body veranderd';">Hallo</button>
+</body>
+
+</html>
